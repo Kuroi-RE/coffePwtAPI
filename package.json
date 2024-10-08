@@ -1,14 +1,18 @@
 {
   "name": "coffeepwt",
   "version": "1.0.0",
+  "type": "module",
   "description": "sebuah rest API untuk mengumpulkan semua data Kafe yang ada diPurwokerto dengan berbagai detail seperti rating, range harga, best seller dan lainnya.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.21.0"
   }
 }
